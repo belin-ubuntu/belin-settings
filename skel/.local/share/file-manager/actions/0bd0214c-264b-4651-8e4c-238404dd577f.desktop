@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Action
+ToolbarLabel[hu_HU]=Indítóikon létrehozása…
+ToolbarLabel[hu]=Indítóikon létrehozása…
+TargetContext=false
+Name[hu_HU]=Indítóikon létrehozása…
+Name[hu]=Indítóikon létrehozása…
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+SelectionCount==1
+MimeTypes=all/allfiles;
+Exec=bash -c "gnome-desktop-item-edit --create-new \\"$(x=%u; test -f ${XDG_CONFIG_HOME:-~/.config}/user-dirs.dirs && source ${XDG_CONFIG_HOME:-~/.config}/user-dirs.dirs; x=${x/#x-nautilus-desktop:\\/\\/\\//$XDG_DESKTOP_DIR}; x=${x/#file:\\/\\//}; echo -e ${x} )\\" "
+Name[hu_HU]=Default profile
+Name[hu]=Default profile

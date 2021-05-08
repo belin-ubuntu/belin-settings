@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=xdiagnose
+GenericName=Diagnose Graphics Issues
+Comment=X.org Diagnostic and Repair Utility
+Exec=xdiagnose-pkexec
+Icon=xdiagnose
+Terminal=false
+Type=Application
+Categories=System;Settings;
+X-Ubuntu-Gettext-Domain=xdiagnose
+Hidden=true

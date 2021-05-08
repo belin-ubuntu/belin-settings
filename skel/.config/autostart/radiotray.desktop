@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Type=Application
+Exec=radiotray
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[hu]=Radiotray
+Name=Radiotray
+Comment[hu]=Internetes rádiók hallgatása
+Comment=Internetes rádiók hallgatása

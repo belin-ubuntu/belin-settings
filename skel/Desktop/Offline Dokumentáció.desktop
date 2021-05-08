@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[hu_HU]=gnome-panel-launcher
+Name[hu_HU]=Offline Dokumentáció
+Exec=firefox /leiras/index.html
+Name=Offline Dokumentáció
+Icon=gnome-panel-launcher

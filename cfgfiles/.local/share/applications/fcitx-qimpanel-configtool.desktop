@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=fcitx-qimpanel-configtool
+Comment=fcitx皮肤配置向导-UbuntuKylin
+Exec=fcitx-qimpanel-configtool
+Icon=fcitx
+Type=Application
+Terminal=false
+Categories=GNOME;GTK;Utility;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=fcitx-qimpanel-configtool
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.14.1
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=fcitx-qimpanel-configtool
+
+Hidden=true

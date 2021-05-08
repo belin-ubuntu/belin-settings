@@ -1,0 +1,17 @@
+#!/bin/sh -e
+# Source debconf library.
+. /usr/share/debconf/confmodule
+db_version 2.0
+PKG="belin-settings"
+db_get belin-settings/profil
+if [ "$RET" = "true" ]; then
+if [ "$1" = remove -o "$1" = purge ]; then
+dpkg-divert --remove --rename --package belin-settings --divert /usr/share/belin-settings/apport.distrib /etc/default/apport
+dpkg-divert --remove --rename --package belin-settings --divert /usr/share/belin-settings/grub.distrib /etc/default/grub
+dpkg-divert --remove --rename --package belin-settings --divert /usr/share/belin-settings/rcS.distrib /etc/default/rcS
+dpkg-divert --remove --rename --package belin-settings --divert /usr/share/belin-settings/ntp.conf.distrib /etc/ntp.conf
+dpkg-divert --remove --rename --package belin-settings --divert /usr/share/belin-settings/timezone.distrib /etc/timezone
+dpkg-divert --remove --rename --package belin-settings --divert /usr/share/belin-settings/distribution.ini.distrib /usr/lib/firefox/distribution/distribution.ini
+fi
+#DEBHELPER#
+fi

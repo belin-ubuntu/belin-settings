@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Settings;X-GNOME-SystemSettings;
+Comment=Configure the sources for installable software and updates
+Exec=software-properties-gtk
+GenericName=Software Sources
+Icon=software-properties
+MimeType=text/x-apt-sources-list;
+Name=Software Sources
+NoDisplay=false
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=true
+X-MultipleArgs=false
+X-Ubuntu-Gettext-Domain=software-properties
+Hidden=true

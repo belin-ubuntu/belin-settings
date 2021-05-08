@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[hu]=mate-panel-launcher
+Name[hu]=Online fiókok
+Exec=env XDG_CURRENT_DESKTOP=GNOME gnome-control-center online-accounts
+Name=Online accounts
+OnlyShowIn=MATE;
+Icon=mate-panel-launcher

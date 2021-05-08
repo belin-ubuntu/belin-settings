@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Utility;Core;
+Comment=Locate documents and folders on this computer by name or content
+Exec=gnome-search-tool
+Icon=system-search
+Name=Search for Files...
+NoDisplay=false
+NotShowIn=KDE;
+StartupNotify=true
+Terminal=false
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Component=gsearchtool
+X-GNOME-Bugzilla-Product=gnome-utils
+X-GNOME-DocPath=gnome-search-tool/gnome-search-tool.xml
+X-Ubuntu-Gettext-Domain=gnome-search-tool

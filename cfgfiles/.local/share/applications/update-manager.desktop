@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=System;Settings;
+Comment=Show and install available updates
+Exec=/usr/bin/update-manager
+GenericName=Software Updates
+Icon=system-software-update
+Name=Software Updater
+NoDisplay=false
+Terminal=false
+Type=Application
+X-Ubuntu-Gettext-Domain=update-manager
+X-Unity-IconBackgroundColor=#4c9e39

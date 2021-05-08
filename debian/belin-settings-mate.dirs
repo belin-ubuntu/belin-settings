@@ -1,0 +1,11 @@
+usr/share/belin-settings-mate
+etc
+etc/default
+etc/environment.d
+etc/skel
+etc/skel/.config/dconf
+root
+usr/share/infocenter
+usr/share/liblouisutdml
+usr/share/liblouisutdml/lbu_files
+var/lib/brltty

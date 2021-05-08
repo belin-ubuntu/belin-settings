@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Link
+Icon[hu_HU]=gnome-panel-launcher
+Name[hu_HU]=Dokumentumok
+URL=../Dokumentumok
+Name=Dokumentumok
+Icon=gnome-panel-launcher

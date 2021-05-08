@@ -1,0 +1,17 @@
+#!/bin/sh -e
+. /usr/share/debconf/confmodule
+db_version 2.0
+PKG="belin-settings-oem"
+db_get belin-settings-oem/profil
+if [ "$RET" = "true" ]; then
+mkdir -p /usr/share/belin-settings-oem
+if [ "$1" = install -o "$1" = upgrade ]; then
+dpkg-divert --add --rename --package belin-settings-oem --divert /usr/share/belin-settings-oem/apport.distrib /etc/default/apport
+dpkg-divert --add --rename --package belin-settings-oem --divert /usr/share/belin-settings-oem/grub.distrib /etc/default/grub
+dpkg-divert --add --rename --package belin-settings-oem --divert /usr/share/belin-settings-oem/rcS.distrib /etc/default/rcS
+dpkg-divert --add --rename --package belin-settings-oem --divert /usr/share/belin-settings-oem/ntp.conf.distrib /etc/ntp.conf
+dpkg-divert --add --rename --package belin-settings-oem --divert /usr/share/belin-settings-oem/timezone.distrib /etc/timezone
+dpkg-divert --add --rename --package belin-settings-oem --divert /usr/share/belin-settings-oem/distribution.ini.distrib /usr/lib/firefox/distribution/distribution.ini
+#DEBHELPER#
+fi
+fi

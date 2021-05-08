@@ -1,0 +1,2 @@
+#!/bin/sh
+export MOZ_CRASHREPORTER_DISABLE=1

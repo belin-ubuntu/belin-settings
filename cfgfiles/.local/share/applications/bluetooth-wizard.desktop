@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=GTK;GNOME;Settings;HardwareSettings;
+Comment=Setup Bluetooth devices
+Exec=bluetooth-wizard
+Icon=bluetooth
+Name=Bluetooth Device Setup
+NoDisplay=false
+StartupNotify=true
+Terminal=false
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Component=wizard
+X-GNOME-Bugzilla-Product=gnome-bluetooth
+X-GNOME-Bugzilla-Version=3.8.2.1
+X-Ubuntu-Gettext-Domain=gnome-bluetooth2

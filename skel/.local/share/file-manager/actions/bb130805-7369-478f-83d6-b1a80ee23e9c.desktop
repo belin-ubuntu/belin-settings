@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Action
+TargetToolbar=true
+ToolbarLabel[hu_HU]=Megnyitás Terminálban
+ToolbarLabel[hu]=Megnyitás Terminálban
+Name[hu_HU]=Megnyitás Terminálban
+Name[hu]=_Megnyitás Terminálban
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Exec=gnome-terminal --working-directory=%f
+Name[hu_HU]=Default profile
+Name[hu]=Default profile
+MimeTypes=inode/directory;

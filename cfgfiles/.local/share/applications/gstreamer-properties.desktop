@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Settings;HardwareSettings;
+Comment=Configure defaults for GStreamer applications
+Exec=gstreamer-properties
+Icon=gstreamer-properties
+Name=Multimedia Systems Selector
+NoDisplay=false
+StartupNotify=true
+Terminal=false
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Component=gstreamer-properties
+X-GNOME-Bugzilla-Product=gnome-media
+X-GNOME-Bugzilla-Version=3.4.0
+X-Ubuntu-Gettext-Domain=gnome-media-2.0

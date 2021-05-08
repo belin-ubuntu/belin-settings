@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Utility;HardwareSettings;Settings;HardwareSettings;
+Comment=Manage Drives and Media
+Exec=gnome-disks
+Icon=gnome-disks
+Keywords=disk;drive;volume;harddisk;hdd;disc;cdrom;dvd;partition;iso;image;backup;restore;benchmark;raid;luks;encryption;S.M.A.R.T.;smart;
+Name=Disks
+NoDisplay=false
+StartupNotify=true
+Terminal=false
+Type=Application
+X-Ubuntu-Gettext-Domain=gnome-disk-utility

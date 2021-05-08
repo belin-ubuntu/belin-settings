@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Welcome
+Comment=Ubuntu MATE Welcome autostart
+Categories=
+Terminal=false
+Type=Application
+Exec=/snap/bin/ubuntu-mate-welcome --autostart
+OnlyShowIn=MATE;
+StartupNotify=false
+NoDisplay=true
+X-MATE-Autostart-Delay=30
+X-MATE-Autostart-enabled=false

@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;System;Printing;
+Comment=Configure printers
+Exec=system-config-printer
+Icon=printer
+Keywords=Printer;Queue;Print;Paper;Ink;Toner;
+Name=Printers
+NoDisplay=false
+NotShowIn=KDE;GNOME;
+StartupNotify=true
+Terminal=false
+Type=Application
+X-Desktop-File-Install-Version=0.22
+X-GNOME-Settings-Panel=printing
+X-Ubuntu-Gettext-Domain=system-config-printer
+X-Unity-Settings-Panel=printing

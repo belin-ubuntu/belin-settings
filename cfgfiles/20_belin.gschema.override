@@ -1,0 +1,196 @@
+[org.gnome.desktop.background]
+show-desktop-icons=true
+
+[org.mate.caja.preferences]
+ sort-directories-first=true
+default-folder-viewer='list-view'
+
+[org.gtk.Settings.FileChooser]
+sort-directories-first=true
+
+[org.mate.caja.window-state]
+start-with-sidebar=false
+
+[org.gnome.desktop.input-sources]
+xkb-options=['terminate:ctrl_alt_bksp']
+
+[org.gnome.desktop.wm.keybindings]
+panel-main-menu=['<Alt>F1']
+show-desktop=['<Super>d']
+
+[org.gnome.gnome-system-monitor]
+current-tab='resources'
+
+[org.gnome.mutter]
+overlay-key=''
+
+[org.gnome.shell.keybindings]
+toggle-overview = ['<Super>S']
+
+[org.gnome.desktop.interface]
+toolkit-accessibility=true
+
+[org.gnome.shell]
+always-show-log-out=true
+favorite-apps=[ 'gedit.desktop', 'firefox.desktop', 'rhythmbox.desktop', 'simple-scan.desktop', 'shotwell.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'nautilus.desktop', 'yelp.desktop', 'orca.desktop', 'orca-teacher.desktop', 'thunderbird.desktop', 'totem.desktop' ]
+enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com']
+
+[org.gnome.nautilus.desktop]
+home-icon-visible=true
+home-icon-name='Saját mappa'
+network-icon-visible=true
+network-icon-name='Hálózati kiszolgálók'
+trash-icon-visible=true
+trash-icon-name='Kuka'
+volumes-visible=true
+
+[org.gnome.nautilus.list-view]
+default-column-order=['name', 'size', 'type', 'date_modified']
+
+[org.gnome.nautilus.preferences]
+default-folder-viewer='list-view'
+
+
+[org.gnome.desktop.a11y.applications]
+screen-reader-enabled=true
+screen-magnifier-enabled=true
+
+[org.gnome.desktop.screensaver]
+lock-enabled=true
+show-notifications=true
+
+[org.gnome.desktop.session]
+idle-delay=uint32 300
+
+[org.mate.session]
+idle-delay=5
+
+[com.canonical.unity-greeter]
+screen-reader=true
+
+[org.gnome.libgnomekbd.keyboard]
+layouts = ['hu']
+
+[org.gnome.desktop.input-sources]
+sources = [('xkb', 'hu')]
+
+[org.gnome.nautilus.preferences]
+always-use-location-entry=true
+
+[org.gnome.yelp]
+show-cursor=true
+
+[org.gnome.settings-daemon.plugins.power]
+critical-battery-action='shutdown'
+
+[org.gnome.settings-daemon.plugins.media-keys]
+email='<Super>e'
+logout='<Primary><Alt>Delete'
+www='<Super>w'
+home='<Super>h'
+calculator='<Super>c'
+magnifier='<Alt><Super>m'
+magnifier-zoom-in='<Alt><Super>Up'
+magnifier-zoom-out='<Alt><Super>Down'
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/']
+
+[com.canonical.unity-gtk-module]
+blacklist=['banshee', 'evince', 'file-roller', 'gnome-terminal', 'gedit', 'nautilus', 'pidgin', 'radiotray', 'totem']
+
+[org.gnome.desktop.sound]
+event-sounds=true
+input-feedback-sounds=true
+theme-name='ubuntu'
+
+[org.gnome.nautilus.window-state]
+start-with-sidebar=false
+
+[org.mate.panel.menubar]
+icon-name='start-here'
+show-icon=true
+show-places=true
+show-desktop=true
+show-applications=true
+
+[org.mate.panel.general]
+toplevel-id-list=['toplevel_0']
+object-id-list=['object_0', 'object_1', 'object_3', 'object_4', 'object_5', 'object_6', 'object_7', 'object_13', 'object_14', 'object_15', 'object_16', 'indicatorappletcomplete', 'object-0', 'object-1']
+
+[org.mate.panel]
+confirm-panel-remove=true
+highlight-launchers-on-mouseover=true
+locked-down=false
+default-layout='ubuntu-mate-indicators'
+disable-force-quit=false
+drawer-autoclose=true
+enable-autocompletion=true
+enable-animations=false
+tooltips-enabled=false
+object-id-list=['object_0', 'object_1', 'object_3', 'object_4', 'object_5', 'object_6', 'object_7', 'object_13', 'object_14', 'object_15', 'object_16', 'indicatorappletcomplete', 'object-0', 'object-1']
+
+[org.mate.mate-menu]
+applet-text='Főmenü'
+hot-key='<Super>a'
+
+[org.mate.mate-menu.plugins.applications]
+show-application-comments=false
+show-category-icons=false
+swap-generic-name=true
+
+[org.mate.interface]
+accessibility=true
+
+[org.mate.applications-at]
+screen-reader-enabled=true
+
+[org.mate.applications-at-visual]
+exec='orca --replace'
+startup=false
+
+[org.mate.terminal.profiles.default]
+background-color='#FFFFFFFFDDDD'
+title='Terminál'
+palette='#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC'
+bold-color='#000000000000'
+foreground-color='#000000000000'
+visible-name='Default'
+
+[org.mate.Marco.global-keybindings]
+show-desktop='<Mod4>d'
+run-command-terminal='<Primary><Alt>t'
+
+[org.mate.peripherals-keyboard-xkb.kbd]
+layouts = ['hu']
+options = ['terminate\tterminate:ctrl_alt_bksp']
+
+[org.freedesktop.ibus.general.hotkey] 
+triggers=['<Control><Shift>space']
+
+[org.mate.SettingsDaemon.plugins.media-keys]
+calculator='<Mod4>c'
+email='<Mod4>e'
+www='<Mod4>w'
+home='<Mod4>h'
+search='<Mod4>f'
+logout='<Mod4>Delete'
+
+[org.mate.sound]
+input-feedback-sounds=true
+theme-name='ubuntu'
+event-sounds=true
+
+[com.ubuntu.update-notifier]
+show-apport-crashes = false
+no-show-notifications = true
+
+[org.gnome.desktop.a11y.magnifier]
+mag-factor=3.0
+
+[org.gnome.Evince]
+show-caret-navigation-message=false
+
+[org.mate.session]
+idle-delay=5
+
+[org.freedesktop.ibus.panel.emoji]
+lang='hu'

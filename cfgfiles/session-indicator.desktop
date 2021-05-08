@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/session-indicator
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[hu_HU]=Rendszer Indikátor
+Name=Rendszer Indikátor
+Comment[hu_HU]=
+Comment=

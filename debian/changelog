@@ -1,0 +1,65 @@
+belin-settings (6.0~ppa24) bionic; urgency=medium
+
+  * Fix some configuration change related errors.
+
+ -- Attila Hammer <hammera@pickup.hu>  Sun, 14 Mar 2021 17:50:45 +0100
+
+belin-settings (6.0~ppa21) bionic; urgency=medium
+
+  * Fix some gi.repository related error messages with Wnck import
+
+ -- Attila Hammer <hammera@pickup.hu>  Fri, 26 Feb 2021 15:17:12 +0100
+
+belin-settings (6.0~ppa20) bionic; urgency=high
+
+  * Végleges változat
+
+ -- Attila Hammer <hammera@pickup.hu>  Wed, 08 May 2019 07:45:16 +0100
+
+belin-settings (5.0~ppa29) xenial; urgency=medium
+
+  * Javítva lett a tananyagok almenüben megjelenő menüpont neve.
+
+ -- Attila Hammer <hammera@pickup.hu>  Thu, 28 Dec 2017 08:49:27 +0100
+
+belin-settings (5.0~ppa28) xenial; urgency=medium
+
+  * Bekerültek a Webböngészés és levelezés tananyaggal kapcsolatos menüpontok a menü szerkezetbe
+
+ -- Attila Hammer <hammera@pickup.hu>  Wed, 06 Dec 2017 12:25:34 +0100
+
+belin-settings (5.0~ppa27) xenial; urgency=high
+
+  * Bekerült néhány új LiblouisUTDML konfigurációs állomány
+
+ -- Attila Hammer <hammera@pickup.hu>  Mon, 02 Oct 2017 09:15:09 +0200
+
+belin-settings (5.0~ppa19) xenial; urgency=high
+
+  * Bekerült néhány új Orka verzióval kapcsolatos beállítás
+
+ -- Attila Hammer <hammera@pickup.hu>  Thu, 06 Jul 2017 06:35:10 +0200
+
+belin-settings (5.0~ppa15) xenial; urgency=medium
+
+  * Bekerültek az Infoalap Braille-szerkesztővel kapcsolatos konfigurációs állományok.
+
+ -- Attila Hammer <hammera@pickup.hu>  Wed, 05 Jul 2017 09:55:04 +0200
+
+belin-settings (5.0~ppa13) xenial; urgency=medium
+
+  * Engedélyezve lett a belin-testing tárolóból történő frissítés is az esetleges frissebb csomagok miatt
+
+ -- Attila Hammer <hammera@pickup.hu>  Fri, 24 Mar 2017 12:57:07 +0100
+
+belin-settings (5.0~ppa12) xenial; urgency=medium
+
+  * Javításra került a metnet időjárás előrejelzés (https átlállás miatt)
+
+ -- Attila Hammer <hammera@pickup.hu>  Mon, 24 Oct 2016 10:01:26 +0200
+
+belin-settings (5.0~ppa11) xenial; urgency=medium
+
+  * Végleges változat.
+
+ -- Attila Hammer <hammera@pickup.hu>  Thu, 29 Sep 2016 11:04:26 +0200

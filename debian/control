@@ -1,0 +1,45 @@
+Source: belin-settings
+Section: x11
+Priority: optional
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Build-Depends: debhelper (>= 11), debconf, config-package-dev, po-debconf, ucf
+Standards-Version: 4.1.4
+Vcs-Browser: https://salsa.debian.org/belin-team/belin-settings-/belin/bionic
+Vcs-Git: https://salsa.debian.org/belin-team/belin-settings.git -b belin/bionic
+Rules-Requires-Root: no
+
+Package: belin-settings
+Architecture: all
+pre-depends: ntp, debconf, python3-lxml, python3-debconf, python3-feedparser
+depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, ${misc:Depends}
+Provides: ${diverted-files}
+Breaks: belin-settings-mate, belin-settings-oem
+Conflicts: belin-settings-mate, belin-settings-oem, ${diverted-files}
+Replaces: belin-settings-mate, belin-settings-oem
+Description: BeLin Beállítás telepítő
+ Ez a csomag telepít minden olyan kiegészítő beállítást, melyet a\n
+ BeLin GNOME változatok használnak.
+
+Package: belin-settings-oem
+Architecture: all
+pre-depends: ntp, debconf, python3-lxml, python3-debconf, python3-feedparser
+depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, ${misc:Depends}
+Provides: ${diverted-files}
+Breaks: belin-settings, belin-settings-mate
+Conflicts: belin-settings, belin-settings-mate, ${diverted-files}
+Replaces: belin-settings, belin-settings-mate
+Description: BeLin Beállítás telepítő
+ Ez a csomag egy már létező Ubuntu alapú rendszerre telepít minden olyan kiegészítő\n
+ beállítást, melyet a BeLin GNOME alapú változatai használnak.
+
+Package: belin-settings-mate
+Architecture: all
+pre-depends: ntp, debconf, python3-lxml, python3-debconf, python3-feedparser
+depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, ${misc:Depends}
+Provides: ${diverted-files}
+Breaks: belin-settings, belin-settings-oem
+Conflicts: belin-settings, belin-settings-oem, ${diverted-files}
+Replaces: belin-settings, belin-settings-oem
+Description: BeLin Beállítás telepítő
+ Ez a csomag a BeLin Mate asztali környezetet használó változatához telepít\n
+ minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.

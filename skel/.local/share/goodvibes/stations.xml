@@ -1,0 +1,426 @@
+<Stations>
+  <Station>
+    <uri>http://94.199.183.186:80/jazzy.mp3</uri>
+    <name>90.9 Jazzy Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://stream.radio1.hu:8000/mid.mp3</uri>
+    <name>96.4 Rádió 1</name>
+  </Station>
+  <Station>
+    <uri>http://195.56.65.180:8000/aktiv.mp3</uri>
+    <name>Aktív Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://alpha889.ddns.net:8760/live.m3u</uri>
+    <name>Alpha Rádió - Székesfehérvár</name>
+  </Station>
+  <Station>
+    <uri>http://87.229.73.156:8004/stream192</uri>
+    <name>Amadeus Rádió - Szolnok</name>
+  </Station>
+  <Station>
+    <uri>http://92.61.114.195:9950/listen.pls</uri>
+    <name>Bajai Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://wssgd.gdsinfo.com:8200</uri>
+    <name>Balaton Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://stream.webthings.hu:8000/fm95-x-128.mp3</uri>
+    <name>Best FM</name>
+  </Station>
+  <Station>
+    <uri>http://178.248.200.21:8000/listen</uri>
+    <name>Best FM Rádió - Nyíregyháza</name>
+  </Station>
+  <Station>
+    <uri>http://stream.cegledradio.hu:4387/mp3</uri>
+    <name>Cegléd Rádió - Cegléd</name>
+  </Station>
+  <Station>
+    <uri>http://civilradio.hu:8000/stream</uri>
+    <name>Civil Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://mediagw.viacomkft.hu:8000/stream/coolfm</uri>
+    <name>Cool FM</name>
+  </Station>
+  <Station>
+    <uri>http://streamer1.borsodweb.hu:48000/csillagpont</uri>
+    <name>Csillagpont Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://stream001.radio.hu:8080/mr7.mp3</uri>
+    <name>Dankó Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://hosting.42netmedia.com:13070/</uri>
+    <name>Dráva Hullám Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://stream001.radio.hu:8080/dwr.mp3</uri>
+    <name>Duna World Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://92.61.114.191:9304//stream?type=.mp3</uri>
+    <name>Dunakanyar Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://hosting2.42netmedia.com:9310/;stream.mp3</uri>
+    <name>Egerszeg rádió - Zalaegerszeg</name>
+  </Station>
+  <Station>
+    <uri>http://radio.elte.hu:8000/eper2</uri>
+    <name>Első Pesti Egyetemi Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://radio2.tirek.hu:8000/europaradio</uri>
+    <name>Európa Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://92.61.114.191:10070/stream</uri>
+    <name>FM7 - Eger</name>
+  </Station>
+  <Station>
+    <uri>http://streamhost110.gtk.hu:9000</uri>
+    <name>Forrás Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://stream.fm90.hu:8000/;?_=0.5468847177784206</uri>
+    <name>Friss Rádió - Debrecen</name>
+  </Station>
+  <Station>
+    <uri>http://stream.gongradio.hu:8000/gong-fm.mp3</uri>
+    <name>Gong FM</name>
+  </Station>
+  <Station>
+    <uri>http://hosting.42netmedia.com:9620</uri>
+    <name>Győr+ Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://92.61.114.195:8110/</uri>
+    <name>Halas Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://www.hobbyradio.hu:8000/hobbyradio.mp3</uri>
+    <name>Hobbi Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://login.radioszerver.hu:2199/tunein/inforadio-stream.pls</uri>
+    <name>Infó Rádió - Budapest</name>
+  </Station>
+  <Station>
+    <uri>http://94.199.183.186:8000/jazzy-groove.mp3</uri>
+    <name>Jazzy Groove</name>
+  </Station>
+  <Station>
+    <uri>http://82.141.165.6:8000/</uri>
+    <name>KORONAfm100</name>
+  </Station>
+  <Station>
+    <uri>http://hosting.42netmedia.com:13100/</uri>
+    <name>Karc FM</name>
+  </Station>
+  <Station>
+    <uri>http://94.199.183.186:80/klasszik.mp3</uri>
+    <name>Klasszik Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://stream.klubradio.hu:8080/source</uri>
+    <name>Klubrádió</name>
+  </Station>
+  <Station>
+    <uri>http://79.172.209.223:8700/stream</uri>
+    <name>Kontakt Rádió - Terézváros</name>
+  </Station>
+  <Station>
+    <uri>http://87.229.53.9:8006/</uri>
+    <name>Kék Duna Rádió – Győr</name>
+  </Station>
+  <Station>
+    <uri>http://87.229.53.9:8004/</uri>
+    <name>Kék Duna Rádió – Székesfehérvár</name>
+  </Station>
+  <Station>
+    <uri>http://online.kormendfm.hu:8000/kormendlive</uri>
+    <name>Körmend FM - Körmend</name>
+  </Station>
+  <Station>
+    <uri>http://stream.composeit.hu:8300/;stream</uri>
+    <name>Lakihegy Rádió - Szigetszentmiklós</name>
+  </Station>
+  <Station>
+    <uri>http://stream.lepesradio.hu:8000/listen.pls</uri>
+    <name>Lépés Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://mr-stream.mediaconnect.hu/4736/mr1.mp3</uri>
+    <name>MR1 Kossuth Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://mr-stream.mediaconnect.hu/4738/mr2.mp3</uri>
+    <name>MR2 Petőfi Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://mr-stream.mediaconnect.hu/4741/mr3.mp3</uri>
+    <name>MR3 Bartók Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://stream001.radio.hu:8080/mr4.mp3</uri>
+    <name>MR4 Nemzetiségi adások</name>
+  </Station>
+  <Station>
+    <uri>http://stream001.radio.hu:8080/mr5.mp3</uri>
+    <name>MR5 Parlamenti adások</name>
+  </Station>
+  <Station>
+    <uri>http://katolikusradio.hu:9000/live_hi.mp3</uri>
+    <name>Magyar Katolikus Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://icast.connectmedia.hu/4780/live.mp3</uri>
+    <name>Manna FM - Budapest</name>
+  </Station>
+  <Station>
+    <uri>http://137.74.85.85:7280/?1513109278480</uri>
+    <name>Maxi Rádió - Gyöngyös</name>
+  </Station>
+  <Station>
+    <uri>http://79.172.201.173:8000/stream</uri>
+    <name>Megafon FM - Balassagyarmat</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/5060.mp3?53438462</uri>
+    <name>Mercy Rádió - 50-es évek</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/beat.mp3?48067147</uri>
+    <name>Mercy Rádió - 60, 70-es évek</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/8090.mp3?78508094</uri>
+    <name>Mercy Rádió - 80-as - évek</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/90.mp3?69503726</uri>
+    <name>Mercy Rádió - 90-es évek</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/disco.mp3?25777543</uri>
+    <name>Mercy Rádió - Disco</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/hangoskonyv.mp3?52624500</uri>
+    <name>Mercy Rádió - Hangoskönyv, rádiójáték</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/kabare.mp3?61378350</uri>
+    <name>Mercy Rádió - Kabaré</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/magyarnota.mp3?68607869</uri>
+    <name>Mercy Rádió - Magyar nóta</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/mese.mp3?62680830</uri>
+    <name>Mercy Rádió - Mese</name>
+  </Station>
+  <Station>
+    <uri>http://stream.mercyradio.eu/vilagslager.mp3?83180410</uri>
+    <name>Mercy Rádió - világsláger, filmzene</name>
+  </Station>
+  <Station>
+    <uri>http://193.138.125.14:8500</uri>
+    <name>Mustár FM - Nyíregyháza</name>
+  </Station>
+  <Station>
+    <uri>http://www.mariaradio.hu:8000/mr</uri>
+    <name>Mária Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://honlap.mariaradio.hu:8000/mr_ajka</uri>
+    <name>Mária Rádió – Ajka</name>
+  </Station>
+  <Station>
+    <uri>http://honlap.mariaradio.hu:8000/mr_cegled</uri>
+    <name>Mária Rádió – Cegléd</name>
+  </Station>
+  <Station>
+    <uri>http://honlap.mariaradio.hu:8000/mr_celldomolk</uri>
+    <name>Mária Rádió – Celldömölk</name>
+  </Station>
+  <Station>
+    <uri>http://honlap.mariaradio.hu:8000/mr_mor</uri>
+    <name>Mária Rádió – Mór</name>
+  </Station>
+  <Station>
+    <uri>http://honlap.mariaradio.hu:8000/mr_papa</uri>
+    <name>Mária Rádió – Pápa</name>
+  </Station>
+  <Station>
+    <uri>http://honlap.mariaradio.hu:8000/mr_sarvar</uri>
+    <name>Mária Rádió – Sárvár</name>
+  </Station>
+  <Station>
+    <uri>http://honlap.mariaradio.hu:8000/mr_veszprem</uri>
+    <name>Mária Rádió – Veszprém</name>
+  </Station>
+  <Station>
+    <uri>http://honlap.mariaradio.hu:8000/mr_varpalota</uri>
+    <name>Mária Rádió – Várpalota</name>
+  </Station>
+  <Station>
+    <uri>http://79.172.209.223:9204?file=mp3</uri>
+    <name>Méz Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://87.229.53.9:9000/</uri>
+    <name>Part FM</name>
+  </Station>
+  <Station>
+    <uri>http://sztrim.periszkopradio.hu:8088/listen.pls</uri>
+    <name>Periszkóp Rádió - Pécs</name>
+  </Station>
+  <Station>
+    <uri>http://fixip.actor.hu:8012/stream/2/;stream.mp3</uri>
+    <name>Pont Rádió - Mezőtúr</name>
+  </Station>
+  <Station>
+    <uri>http://pecsfm.hu:8000/1017.mp3</uri>
+    <name>Pécs FM</name>
+  </Station>
+  <Station>
+    <uri>http://92.61.114.195:8010/</uri>
+    <name>Radio Smile</name>
+  </Station>
+  <Station>
+    <uri>http://stream.retroradio.hu/mid.mp3</uri>
+    <name>Retro Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://137.74.85.85:7320/hq.m3u</uri>
+    <name>Rádió 24 - Dunaújváros</name>
+  </Station>
+  <Station>
+    <uri>http://adas.radio451.hu:8441/radio451</uri>
+    <name>Rádió 451 - Szentes</name>
+  </Station>
+  <Station>
+    <uri>http://netradio.radio7.hu:8300/stream.mp3</uri>
+    <name>Rádió 7 - Hódmezővásárhely</name>
+  </Station>
+  <Station>
+    <uri>http://stream.radio88.hu:8000/;stream</uri>
+    <name>Rádió 88</name>
+  </Station>
+  <Station>
+    <uri>http://stream2.radio88.hu:8400/;stream</uri>
+    <name>Rádió 88 (Club)</name>
+  </Station>
+  <Station>
+    <uri>http://stream1.radio88.hu:8300/;stream</uri>
+    <name>Rádió 88 (Retro)</name>
+  </Station>
+  <Station>
+    <uri>http://stream3.radio88.hu:8500/;stream</uri>
+    <name>Rádió 88 (Top)</name>
+  </Station>
+  <Station>
+    <uri>http://stream.radioantritt.hu:8000/Antritt</uri>
+    <name>Rádió Antritt</name>
+  </Station>
+  <Station>
+    <uri>http://gomedia.hu:8000/fm95-x-128.mp3</uri>
+    <name>Rádió FM95</name>
+  </Station>
+  <Station>
+    <uri>http://hosting2.42netmedia.com:10060/;stream.mp3</uri>
+    <name>Rádió M - Miskolc</name>
+  </Station>
+  <Station>
+    <uri>http://79.172.209.223:8100/;stream.mp3</uri>
+    <name>Rádió Som - Fehérgyarmat</name>
+  </Station>
+  <Station>
+    <uri>http://stream.radiosun.hu:19730/live.mp3</uri>
+    <name>Rádió Sun - Gyomaendrőd</name>
+  </Station>
+  <Station>
+    <uri>http://92.61.114.195:13040/listen.pls</uri>
+    <name>Rádió Szentendre - Szentendre</name>
+  </Station>
+  <Station>
+    <uri>http://www.radiotop.hu:888/</uri>
+    <name>Rádió Top</name>
+  </Station>
+  <Station>
+    <uri>http://enyingfm.com:8080/efm_high.m3u</uri>
+    <name>Rádió e - Enying</name>
+  </Station>
+  <Station>
+    <uri>http://kaposvarmost.hu/radio/radiomost.m3u</uri>
+    <name>Rádió most - Kaposvár</name>
+  </Station>
+  <Station>
+    <uri>http://streamhost110.gtk.hu:9078/;stream</uri>
+    <name>Rádió szarvas</name>
+  </Station>
+  <Station>
+    <uri>http://91.82.84.179:8500/relay_911</uri>
+    <name>Sirius Rádió - Kiskunfélegyháza</name>
+  </Station>
+  <Station>
+    <uri>http://92.61.114.159:7812/slagerfm256.mp3</uri>
+    <name>Sláger FM</name>
+  </Station>
+  <Station>
+    <uri>http://radiosmile.hu:8010/stream</uri>
+    <name>Smile FM - Kiskunfélegyháza</name>
+  </Station>
+  <Station>
+    <uri>http://195.56.193.129:8100/</uri>
+    <name>Sunshine Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://online.szentistvanradio.hu:8000/;stream</uri>
+    <name>Szent István Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://92.61.114.191:9651/stream</uri>
+    <name>Sárvár Rádió - Sárvár</name>
+  </Station>
+  <Station>
+    <uri>http://92.61.114.191:10030/;stream/1</uri>
+    <name>Tamási Rádió - Tamási</name>
+  </Station>
+  <Station>
+    <uri>http://stream.tilos.hu:80/tilos</uri>
+    <name>Tilos Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://stream.tilos.hu:80/tordas_radio_online</uri>
+    <name>Tordas Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://radio.nordtelekom.hu:8000/gazdasagiradio</uri>
+    <name>Trend FM</name>
+  </Station>
+  <Station>
+    <uri>http://79.172.217.50:9090/</uri>
+    <name>Trió Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://live.taskaradio.com:7070/;stream.nsv#.mp3</uri>
+    <name>Táska Rádió - Székesfehérvár</name>
+  </Station>
+  <Station>
+    <uri>http://qt.istenek.info:8000/vorosmarty_mid.mp3</uri>
+    <name>Vörösmarty Rádió</name>
+  </Station>
+  <Station>
+    <uri>http://stream.erdfm.hu:8000/</uri>
+    <name>Érd FM</name>
+  </Station>
+</Stations>

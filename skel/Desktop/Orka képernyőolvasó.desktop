@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Orca
+Name[hu]=Orka
+GenericName=Screen Reader and Magnifier
+GenericName[hu]=Képernyőolvasó és nagyító
+X-GNOME-FullName=Orca Screen Reader and Magnifier
+X-GNOME-FullName[hu]=Orka képernyőolvasó és nagyító
+Comment=Present on-screen information as speech or braille, or magnify the screen
+Comment[hu]=A képernyő információinak felolvasása, Braille-kimenetté alakítása vagy a képernyő nagyítása
+Exec=orca --replace
+Icon=orca
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;GNOME;Utility;Accessibility;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=orca
+X-GNOME-Bugzilla-Component=general
+
+Name[hu_HU]=Orka képernyőolvasó

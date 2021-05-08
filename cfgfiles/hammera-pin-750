@@ -1,0 +1,13 @@
+Package: *
+Pin: release o=LP-PPA-belin-stable
+Pin-Priority: 750
+
+
+Package: *
+Pin: release o=LP-PPA-belin-testing
+Pin-Priority: 750
+
+Package: *
+Pin: release o=LP-PPA-belin-dev
+Pin-Priority: 750
+

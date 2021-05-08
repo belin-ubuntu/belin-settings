@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=GTK;GNOME;System;Filesystem;
+Comment=Check folder sizes and available disk space
+Exec=baobab
+Icon=baobab
+Keywords=storage;space;cleanup;
+MimeType=inode/directory;
+Name=Disk Usage Analyzer
+NoDisplay=false
+NotShowIn=KDE;
+StartupNotify=true
+Terminal=false
+TryExec=baobab
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Component=baobab
+X-GNOME-Bugzilla-Product=gnome-utils
+X-GNOME-Bugzilla-Version=3.8.2
+X-Ubuntu-Gettext-Domain=baobab
+Hidden=true

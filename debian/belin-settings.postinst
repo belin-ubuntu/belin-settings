@@ -1,0 +1,119 @@
+#!/bin/sh -e
+# Source debconf library.
+. /usr/share/debconf/confmodule
+db_version 2.0
+PKG="belin-settings"
+db_get belin-settings/profil
+if [ "$RET" = "true" ]; then
+sudo sed -i 's/Prompt=.*/Prompt=never/' /etc/update-manager/release-upgrades
+if [ "$1" = install -o "$1" = upgrade ]; then
+    file=/etc/skel/.local/share/gnome-shell
+    if [ -d $file ]; then
+        rm -r /etc/skel/.local/share/gnome-shell
+    fi
+fi
+if [ "$1" = "configure" ]; then
+cp /etc/dconf/db/keybinding /etc/skel/.config/dconf/user
+file=/etc/skel/.local/share/applications/debian-installer-launcher.desktop
+if [ -e $file ]; then
+rm /etc/skel/.local/share/applications/debian-installer-launcher*
+fi
+file=/etc/brltty.conf.tmp
+if [ -e $file ]; then
+mv /etc/brltty.conf.tmp /etc/brltty.conf
+fi
+file=/usr/bin/gcalctool
+if [ ! -L $file ] && [ ! -e $file ]; then
+ln -s /usr/bin/gnome-calculator /usr/bin/gcalctool
+fi
+file=/etc/systemd/system/sysinit.target.wants/brltty.service
+if [ ! -L $file ] && [ ! -e $file ]; then
+ln -s /lib/systemd/system/brltty.service /etc/systemd/system/sysinit.target.wants
+fi
+file=/etc/lightdm/lightdm.conf.tmp
+if [ -e $file ]; then
+mv /etc/lightdm/lightdm.conf.tmp /etc/lightdm/lightdm.conf
+fi
+felhasznaloszam=`ls /home|wc -l`
+if [ "$felhasznaloszam" != "0" ]; then
+idozona=`sudo cat /etc/default/rcS|grep UTC=`
+if [ "$idozona" = "UTC=yes" ]; then
+sudo hwclock --systohc
+sudo sed -i -e 's/UTC=yes/UTC=no/' "/etc/default/rcS"
+fi
+for home in `cat /etc/passwd |grep "/bin/bash" |grep /home|cut -d ":" -f6|sort`; do
+{
+if [ "$home" != "/home/lost+found" ]  && [ "$home" != "/home/remastersys" ]; then
+file=$home/.local/share/applications/debian-installer-launcher.desktop
+if [ -e $file ]; then
+rm $home/.local/share/applications/debian-installer-launcher*
+fi
+cp /etc/skel/.config/braille-editor.conf $home/.config
+mkdir -p $home/.local/share/orca
+cp /etc/skel/.local/share/orca/orca-customizations.py $home/.local/share/orca
+cp /etc/skel/.local/share/orca/window_switch.py $home/.local/share/orca
+cp /etc/skel/.local/share/orca/app-settings/mate-indicator-applet-complete.conf $home/.local/share/orca/app-settings
+cp /etc/skel/.local/share/orca/app-settings/brisk-menu.conf $home/.local/share/orca/app-settings
+cp /etc/skel/rsscsatornak.cfg $home
+cp /etc/skel/rsscsatornak.cfg /var/lib/lightdm
+file=$home/.purple/prefs.xml
+if [ ! -e $file ]; then
+cp -r /etc/skel/.purple $home
+fi
+usernev=`echo |basename $home`
+chown -hR $usernev:$usernev $home/.profile
+chown -hR $usernev:$usernev $home/.purple
+
+file=$home/.local/share/orca/user-settings.conf
+if [ ! -e $file ]; then
+cp -r /etc/skel/.local/share/orca $home/.local/share
+usernev=`echo |basename $home`
+if [ "$usernev" != "lost+found" ] ; then
+chown -hR $usernev:$usernev $home/.local/share
+fi
+fi
+cp /etc/skel/.birthdays $home
+cp -r /etc/skel/.local/share/radiotray $home/.local/share
+cp -r /etc/skel/.local/share/goodvibes $home/.local/share
+cp -r /etc/skel/.local/share/applications $home/.local/share
+cp -r /etc/skel/.config/menus/gnome-applications.menu $home/.config/menus
+cp -r /etc/skel/.config/menus/mate-applications.menu $home/.config/menus
+cp -r /etc/skel/.config/menus/mate-settings.menu $home/.config/menus
+mkdir -p $home/.local/share/desktop-directories
+cp -r /etc/skel/.local/share/desktop-directories $home/.local/share/
+cp -r /etc/skel/.local/share/desktop-directories /root/.local/share/
+cp -r /etc/skel/.local/share/radiotray $home/.local/share
+usernev=`echo |basename $home`
+if [ "$usernev" != "lost+found" ] ; then
+sed -i -e 's/\"Right\"/\"Up\"/' "$home/.local/share/orca/user-settings.conf"
+sed -i -e 's/\"Left\"/\"Down\"/' "$home/.local/share/orca/user-settings.conf"
+chown -hR $usernev:$usernev $home/.local/share
+fi
+fi
+}
+done
+sed -i -e 's/\"Right\"/\"Up\"/' "/etc/skel/.local/share/orca/user-settings.conf"
+sed -i -e 's/\"Left\"/\"Down\"/' "/etc/skel/.local/share/orca/user-settings.conf"
+sed -i -e 's/\"Right\"/\"Up\"/' "/root/.local/share/orca/user-settings.conf"
+sed -i -e 's/\"Left\"/\"Down\"/' "/root/.local/share/orca/user-settings.conf"
+fi
+
+if [ "$felhasznaloszam" = "0" ]; then
+mkdir -p /var/lib/lightdm/.local/share
+cp -r /etc/skel/.local/share/orca /var/lib/lightdm/.local/share
+cp -r /etc/skel/rsscsatornak.cfg /var/lib/lightdm
+cp /etc/skel/.birthdays /var/lib/lightdm
+chroot / chown -R lightdm.lightdm /var/lib/lightdm/.local
+chmod 755 /var/lib/lightdm/.local/share/orca
+file=/etc/grub.d/20_memtest86+
+if [ -e $file ]; then
+chmod -x /etc/grub.d/20_memtest86+
+fi
+sed -i -e 's/\"Right\"/\"Up\"/' "/etc/skel/.local/share/orca/user-settings.conf"
+sed -i -e 's/\"Left\"/\"Down\"/' "/etc/skel/.local/share/orca/user-settings.conf"
+sed -i -e 's/\"Right\"/\"Up\"/' "/root/.local/share/orca/user-settings.conf"
+sed -i -e 's/\"Left\"/\"Down\"/' "/root/.local/share/orca/user-settings.conf"
+fi
+glib-compile-schemas /usr/share/glib-2.0/schemas
+fi
+fi

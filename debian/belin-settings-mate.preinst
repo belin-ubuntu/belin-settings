@@ -1,0 +1,21 @@
+#!/bin/sh -e
+. /usr/share/debconf/confmodule
+export UCF_FORCE_CONFFNEW=1.
+db_version 2.0
+PKG="belin-settings-mate"
+db_get belin-settings/profil
+if [ "$RET" = "true" ]; then
+mkdir -p /usr/share/belin-settings-mate
+if [ "$1" = install -o "$1" = upgrade ]; then
+echo "Dpkg::Options {">/etc/apt/apt.conf.d/71debconf
+echo "  \"--force-confnew\";" >>/etc/apt/apt.conf.d/71debconf
+echo "};">>/etc/apt/apt.conf.d/71debconf
+dpkg-divert --add --rename --package belin-settings-mate --divert /usr/share/belin-settings-mate/apport.distrib /etc/default/apport
+dpkg-divert --add --rename --package belin-settings-mate --divert /usr/share/belin-settings-mate/grub.distrib /etc/default/grub
+dpkg-divert --add --rename --package belin-settings-mate --divert /usr/share/belin-settings-mate/rcS.distrib /etc/default/rcS
+dpkg-divert --add --rename --package belin-settings-mate --divert /usr/share/belin-settings-mate/ntp.conf.distrib /etc/ntp.conf
+dpkg-divert --add --rename --package belin-settings-mate --divert /usr/share/belin-settings-mate/timezone.distrib /etc/timezone
+dpkg-divert --add --rename --package belin-settings-mate --divert /usr/share/belin-settings-mate/distribution.ini.distrib /usr/lib/firefox/distribution/distribution.ini
+#DEBHELPER#
+fi
+fi

@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[hu]=audacious
+Name[hu]=BeLin 5.0 webböngészés és levelezés tananyag (felolvasott változat)
+Exec=audacious http://belin.hu/letoltes/BeLin_5.0_tananyag/mp3/tananyag.m3u
+Name=Webböngészés és levelezés tananyag (felolvasott változat)
+Icon=audacious

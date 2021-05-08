@@ -1,0 +1,9 @@
+[Default Applications]
+application/vnd.debian.binary-package=ubuntu-software-center.desktop
+x-scheme-handler/ghelp=yelp.desktop
+x-scheme-handler/help=yelp.desktop
+x-scheme-handler/info=yelp.desktop
+x-scheme-handler/man=yelp.desktop
+
+[Added Associations]
+application/vnd.debian.binary-package=ubuntu-software-center.desktop;

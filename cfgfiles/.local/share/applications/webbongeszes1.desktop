@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[hu]=firefox
+Name[hu]=BeLin 5.0 webböngészés és levelezés tananyag (szöveges változat)
+Exec=firefox /tananyag/BeLin_5.0_Webbongeszes_es_levelezes_tananyag.html
+Name=BeLin 5.0 webböngészés és levelezés tananyag (szöveges változat
+Icon=firefox

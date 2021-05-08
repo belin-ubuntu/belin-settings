@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=GNOME;GTK;System;
+Comment=Create CDs and DVDs
+Exec=nautilus --no-default-window --no-desktop burn:///
+Icon=system-file-manager
+MimeType=x-content/blank-cd;x-content/blank-dvd;x-content/blank-bd;x-content/blank-hddvd;
+Name=CD/DVD Creator
+NoDisplay=false
+OnlyShowIn=GNOME;
+StartupNotify=true
+Terminal=false
+TryExec=nautilus
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Product=brasero
+X-GNOME-Bugzilla-Version=3.4.1
+X-Ubuntu-Gettext-Domain=brasero

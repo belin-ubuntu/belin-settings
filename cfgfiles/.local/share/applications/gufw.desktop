@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+Comment=An easy way to configure your firewall
+Exec=gufw
+Icon=gufw
+Name=Firewall Configuration
+NoDisplay=false
+Terminal=false
+Type=Application
+Version=1.0
+X-GNOME-Settings-Panel=gufw
+X-Ubuntu-Gettext-Domain=gufw
+X-Unity-Settings-Panel=gufw

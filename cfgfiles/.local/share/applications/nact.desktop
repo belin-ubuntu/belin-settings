@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Nautilus-Actions Configuration Tool
+Comment=Configure items to be added to the Nautilus context menus
+Exec=nautilus-actions-config-tool
+Icon=nautilus-actions
+Categories=System;FileTools;FileManager;
+StartupNotify=true
+Keywords=FileTools;FileManager;CustomMenu;CustomAction
+X-Ubuntu-Gettext-Domain=nautilus-actions
+Hidden=true

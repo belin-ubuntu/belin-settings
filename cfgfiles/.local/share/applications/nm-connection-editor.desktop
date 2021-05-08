@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Settings;X-GNOME-NetworkSettings;
+Comment=Manage and change your network connection settings
+Exec=nm-connection-editor
+Icon=preferences-system-network
+Name=Network Connections
+NoDisplay=false
+NotShowIn=KDE;
+StartupNotify=true
+Terminal=false
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Component=nm-connection-editor
+X-GNOME-Bugzilla-Product=NetworkManager
+X-Ubuntu-Gettext-Domain=nm-applet

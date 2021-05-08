@@ -1,0 +1,6 @@
+
+[SeatDefaults]
+xserver-layout=hu
+greeter-session=unity-greeter
+user-session=gnome-classic
+

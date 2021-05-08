@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+#!coding: utf-8
+import subprocess
+from gi.repository import Gtk as gtk
+from gi.repository import AppIndicator3 as appindicator
+
+APPINDICATOR_ID = 'myappindicator'
+
+def build_menu():
+    menu = gtk.Menu()
+    item_lock=gtk.MenuItem('_Képernyő zárolása')
+    item_lock.connect('activate', lock)
+    item_lock.set_use_underline(True)
+    menu.append(item_lock)
+    item_shutdown=gtk.MenuItem('_Leállítás...')
+    item_shutdown.connect('activate', shutdown)
+    item_shutdown.set_use_underline(True)
+    menu.append(item_shutdown)
+    menu.show_all()
+    menu.select_first(True)
+    return menu
+
+def lock(source):
+    subprocess.getoutput('mate-screensaver-command -l')
+
+def shutdown(source):
+    subprocess.getoutput('mate-session-save --shutdown-dialog')
+
+def main():
+    indicator = appindicator.Indicator.new(APPINDICATOR_ID, 'whatever', appindicator.IndicatorCategory.SYSTEM_SERVICES)
+    indicator.set_status(appindicator.IndicatorStatus.ACTIVE)
+    indicator.set_title('Rendszerműveletek')
+    indicator.set_label('Rendszer', '_Rendszerműveletek')
+    #indicator.set_label('_Rendszer')
+    indicator.set_menu(build_menu())
+    gtk.main()
+
+if __name__ == "__main__":
+    main()
+
+

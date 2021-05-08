@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Infoalap Braille Editor
+Name[hu]=Infoalap Braille-szerkesztő
+GenericName=Infoalap Braille Editor
+GenericName[hu]=Infoalap Braille-szerkesztő
+Comment=Generate, editing printable braille documents
+Comment[hu]=Braille nyomdai kiadványok létrehozása és szerkesztése
+Exec=/usr/bin/ibsz
+Icon=ibsz
+Categories=Application;Office;
+

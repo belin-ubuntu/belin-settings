@@ -1,0 +1,8 @@
+belin-settings: no-copyright-file
+belin-settings: package-installs-apt-preferences etc/apt/preferences.d/hammera-pin-750
+belin-settings: package-contains-file-in-etc-skel *
+belin-settings: dir-or-file-in-home root/*
+belin-settings: dir-or-file-in-home root/.*
+belin-settings: dir-or-file-in-home root/.birthdays
+belin-settings: dir-or-file-in-home root/.config/*
+

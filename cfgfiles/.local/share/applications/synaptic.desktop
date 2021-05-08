@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=PackageManager;GTK;System;Settings;
+Comment=Install, remove and upgrade software packages
+Exec=synaptic-pkexec
+GenericName=Package Manager
+Icon=synaptic
+Name=Synaptic Package Manager
+NoDisplay=false
+Terminal=false
+Type=Application
+X-Ubuntu-Gettext-Domain=synaptic

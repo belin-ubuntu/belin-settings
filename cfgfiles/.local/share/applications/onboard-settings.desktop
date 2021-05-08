@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Settings;Accessibility;
+Comment=Change Onboard settings
+Exec=onboard-settings
+GenericName=Onboard onscreen keyboard settings
+Icon=onboard
+MimeType=application/x-onboardsettings;
+Name=Onboard Settings
+NoDisplay=false
+Terminal=false
+Type=Application
+X-Ubuntu-Gettext-Domain=onboard
